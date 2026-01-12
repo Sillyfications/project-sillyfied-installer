@@ -1,0 +1,52 @@
+{
+    "addons": {
+        "addon_1": {
+            "name": "Addon Template",
+            "developer": "Something Technologies",
+            "tag": "debug",
+            "description": "A simple test for testing the JSON functions of this installer. Do not download this addon, except for testing purposes.",
+            "dependencies": "none",
+            "conflits-with" : "none",
+            "license": "bound to installer",
+            "credits": "none",
+            "date-added": 1758222935,
+            "addon-version": "1",
+            "required-mod-version": "57",
+            "size": "517 bytes",
+            "add-on-verified": "needs-testing",
+            "download-url": "none"
+        },
+        "addon_2": {
+            "name": "Addon Template 2",
+            "developer": "Something Technologies",
+            "tag": "debug",
+            "description": "Bingo, bango, bongo; bish, bash, bosh.",
+            "dependencies": "none",
+            "conflits-with" : "none",
+            "license": "bound to installer",
+            "credits": "none",
+            "date-added": 1758222935,
+            "addon-version": "1.0",
+            "required-mod-version": "57",
+            "size": "517 bytes",
+            "add-on-verified": "needs-testing",
+            "download-url": "localhost"
+        },
+        "addon_3": {
+            "name": "Addon Template 3",
+            "developer": "Something Technologies",
+            "tag": "debug",
+            "description": "Are we rushin' in? Or are we goin' sneeky-peeky like?",
+            "dependencies": "none",
+            "conflits-with" : "none",
+            "license": "bound to installer",
+            "credits": "none",
+            "date-added": 1758222935,
+            "addon-version": "1.0",
+            "required-mod-version": "57",
+            "size": "517 bytes",
+            "add-on-verified": "needs-testing",
+            "download-url": "localhost"
+        }
+    }
+}
