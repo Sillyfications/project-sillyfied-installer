@@ -20,8 +20,11 @@ linux download link
 
 ## Documentation
 [Modifying the installer for your own (Gold)Source modifications.]()
+
 [How to publish your own addons.]()
+
 [Using the installer without Half-Life]()
+
 [Host guide for your own (Gold)Source modifications.]()
 
 
