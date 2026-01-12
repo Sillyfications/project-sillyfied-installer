@@ -19,13 +19,13 @@ linux download link
   
 
 ## Documentation
-[Modifying the installer for your own (Gold)Source modifications.]()
+[Modifying the installer for your own (Gold)Source modifications.](https://github.com/Sillyfications/project-sillyfied-installer/blob/main/docs/MODIFY_INSTALLER.MD)
 
-[How to publish your own addons.]()
+[How to publish your own addons.](https://github.com/Sillyfications/project-sillyfied-installer/blob/main/docs/YOUR_ADDON.MD)
 
-[Using the installer without Half-Life]()
+[Using the installer without Half-Life](https://github.com/Sillyfications/project-sillyfied-installer/blob/main/docs/WITHOUT_HALFLIFE.MD)
 
-[Host guide for your own (Gold)Source modifications.]()
+[Host guide for your own (Gold)Source modifications.](https://github.com/Sillyfications/project-sillyfied-installer/blob/main/docs/MODIFY_WEBSITE.MD)
 
 
 
