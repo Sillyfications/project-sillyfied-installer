@@ -36,7 +36,7 @@ Link both zlib and curl libraries by going to Linker -> General -> Additional li
 Before building go to Linker -> Input -> Additional Dependencies. Remove the contents and paste this: `libcurl.lib;zlib.lib;%(AdditionalDependencies)`
 ### Build
 Place both dlls files located on `[path before root of repo]\projsil-installer-windows\vcpkg_installed\x64-windows\lib` to `[path before root of repo]\projsil-installer-windows\x64\debug\`
-And then build.
+and then build.
 
 
 
