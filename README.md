@@ -8,6 +8,10 @@ Both platforms: Steam and the Steam version of Half-Life 1. WON (World Opponent 
 
 *Windows 10 users should run the program on PowerShell, MinGW, KDE Konsole or any other terminal program that is not CMD. CMD does not support the ANSI escape codes used in the installer. For Windows 11, it is fine.
 **It would be possible to use this installer on an older operating system, but it is not tested.
+
+# Downloads
+windows download link
+linux download link
   
 
 ### Documentation
