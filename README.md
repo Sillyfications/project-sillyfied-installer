@@ -19,7 +19,12 @@ linux download link
   
 
 ## Documentation
-insert docs later
+[Modifying the installer for your own (Gold)Source modifications.]()
+[How to publish your own addons.]()
+[Using the installer without Half-Life]()
+[Host guide for your own (Gold)Source modifications.]()
+
+
 
 ## Used projects
 [JSON for Modern C++](https://github.com/nlohmann/json) by Niels Lohmann - licensed under MIT
