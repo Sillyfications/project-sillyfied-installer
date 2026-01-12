@@ -21,12 +21,22 @@ Download the [vcpkg.json](https://sillyfications.github.io/projsil/dev/vcpkg.jso
 ```
 ./vcpkg.exe integrate install
 ```
+Install the dependencies.
+
+```
+./vcpkg.exe install
+```
 ### Configure Solution
-Back at VS, go to project properties and go to the VCPKG tab. Enable manifest mode.
+Back at VS, go to project properties and go to Configuration Manager -> vcpkg and enable "use VCPKG manifest".
 
-Link both zlib and curl libraries by going to Linker -> Input -> Additional dependencies. If you already had VCPKG installed, your path will be different than provided here.
-
-And then build
+Link both zlib and curl libraries by going to Linker -> General -> Additional library dependencies.
+```
+[path before root of repo]\projsil-installer-windows\vcpkg_installed\x64-windows\lib
+```
+Before building go to Linker -> Input -> Additional Dependencies. Remove the contents and paste this: `libcurl.lib;zlib.lib;%(AdditionalDependencies)`
+### Build
+Place both dlls files located on `[path before root of repo]\projsil-installer-windows\vcpkg_installed\x64-windows\lib` to `[path before root of repo]\projsil-installer-windows\x64\debug\`
+And then build.
 
 
 
