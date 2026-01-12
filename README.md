@@ -27,6 +27,8 @@ linux download link
 
 [Host guide for your own (Gold)Source modifications.](https://github.com/Sillyfications/project-sillyfied-installer/blob/main/docs/MODIFY_WEBSITE.MD)
 
+[Addon structure](https://github.com/Sillyfications/project-sillyfied-installer/blob/main/docs/ADDONS.MD)
+
 
 
 ## Used projects
