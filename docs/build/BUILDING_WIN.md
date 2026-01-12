@@ -19,7 +19,7 @@ cd vcpkg; ./bootstrap-vcpkg.bat
 Download the [vcpkg.json](https://sillyfications.github.io/projsil/dev/vcpkg.json) file and place in the root folder and then intergrate VCPKG to VS
 
 ```
-.\vcpkg.exe integrate install
+./vcpkg.exe integrate install
 ```
 ### Configure Solution
 Back at VS, go to project properties and go to the VCPKG tab. Enable manifest mode.
