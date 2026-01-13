@@ -21,6 +21,8 @@ linux download link
   
 
 ## Documentation
+[Fast installation guide](https://github.com/Sillyfications/project-sillyfied-installer/blob/main/docs/INSTALL.MD).
+
 [Modifying the installer for your own (Gold)Source modifications.](https://github.com/Sillyfications/project-sillyfied-installer/blob/main/docs/MODIFY_INSTALLER.MD)
 
 [How to publish your own addons.](https://github.com/Sillyfications/project-sillyfied-installer/blob/main/docs/YOUR_ADDON.MD)
