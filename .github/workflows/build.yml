@@ -1,0 +1,86 @@
+name: Cross-Platform Build
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-latest
+            triplet: x64-linux
+            build_type: Release
+          - os: macos-latest
+            triplet: x64-osx
+            build_type: Release
+          - os: windows-latest
+            triplet: x64-windows
+            build_type: Release
+            generator: "Visual Studio 17 2022"
+            arch: x64
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup vcpkg
+      uses: lukka/run-vcpkg@v10
+      with:
+        vcpkgDirectory: ${{ runner.workspace }}/vcpkg
+        appendedCacheKey: ${{ hashFiles( '**/vcpkg.json' ) }}
+        vcpkgGitCommitId: 62efe42f53b1886a20cbeb22ee9a27736d20f149
+    
+    - name: Integrate vcpkg
+      run: ${{ runner.workspace }}/vcpkg/vcpkg integrate install
+      shell: bash
+    
+    - name: Setup CMake (Linux/macOS)
+      if: runner.os != 'Windows'
+      run: |
+        if [ "$RUNNER_OS" == "Linux" ]; then
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake
+        elif [ "$RUNNER_OS" == "macOS" ]; then
+          brew install cmake
+        fi
+      shell: bash
+    
+    - name: Create build directory
+      run: mkdir -p build
+      shell: bash
+    
+    - name: Configure CMake (Linux/macOS)
+      if: runner.os != 'Windows'
+      run: |
+        cd build
+        cmake .. \
+          -DCMAKE_TOOLCHAIN_FILE=${{ runner.workspace }}/vcpkg/scripts/buildsystems/vcpkg.cmake \
+          -DCMAKE_BUILD_TYPE=${{ matrix.build_type }} \
+          -DVCPKG_TARGET_TRIPLET=${{ matrix.triplet }}
+      shell: bash
+    
+    - name: Configure CMake (Windows)
+      if: runner.os == 'Windows'
+      run: |
+        cd build
+        cmake .. `
+          -DCMAKE_TOOLCHAIN_FILE="${{ runner.workspace }}\vcpkg\scripts\buildsystems\vcpkg.cmake" `
+          -DVCPKG_TARGET_TRIPLET=${{ matrix.triplet }} `
+          -G "${{ matrix.generator }}" `
+          -A ${{ matrix.arch }}
+      shell: pwsh
+    
+    - name: Build
+      run: cmake --build build --config ${{ matrix.build_type }} --parallel
+      shell: bash
+    
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: projsil-installer-${{ matrix.os }}
+        path: build/
