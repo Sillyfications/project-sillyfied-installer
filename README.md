@@ -13,7 +13,9 @@ Both platforms: Steam and the Steam version of Half-Life 1. WON (World Opponent 
 **It would be possible to use this installer on an older operating system, but it is not tested.
 
 ## Downloads
-windows download link
+For [Windows 10/11]().
+
+For [modern 64-bit Linux distributions]().
 
 linux download link
   
