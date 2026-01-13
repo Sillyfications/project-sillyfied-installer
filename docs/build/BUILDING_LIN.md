@@ -18,4 +18,4 @@ Go to the repository directory and run the following command to build the execut
 ```
 ./setupdirs.sh; ./source2obj.sh; ./obj2exec.sh
 ```
-
+Your built executable is in `build/bin`.
