@@ -1,5 +1,5 @@
 # project-sillyfied-installer
-An installer for a Half-Life modification. Install, update, remove or add optional addons to the mod. It was an attempt to make a cross-platform application for both Windows and Linux written in C++, but not really.  To build the project see [BUILDING.MD](https://github.com/Sillyfications/project-sillyfied-installer/blob/main/docs/build/BUILDING.MD). 
+An installer for a Half-Life modification. Install, update, remove or add optional addons to the mod. It was an attempt to make a cross-platform application for both Windows and Linux written in C++.  To build the project see [BUILDING.MD](https://github.com/Sillyfications/project-sillyfied-installer/blob/main/docs/build/BUILDING.MD). 
 
 ## Requirements
 Windows**: Windows 10* or 11, [7-zip](https://www.7-zip.org/) 
@@ -17,11 +17,11 @@ For [Windows 10/11](https://github.com/Sillyfications/project-sillyfied-installe
 
 For [modern 64-bit Linux distributions]().
 
-linux download link
+
   
 
 ## Documentation
-[Fast installation guide](https://github.com/Sillyfications/project-sillyfied-installer/blob/main/docs/INSTALL.MD).
+[Fast installation guide.](https://github.com/Sillyfications/project-sillyfied-installer/blob/main/docs/INSTALL.MD)
 
 [Modifying the installer for your own (Gold)Source modifications.](https://github.com/Sillyfications/project-sillyfied-installer/blob/main/docs/MODIFY_INSTALLER.MD)
 
