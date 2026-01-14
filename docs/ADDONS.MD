@@ -33,6 +33,6 @@ License: do-not-redist
 This is the file used for comparing versions. Contains the mod version number
 
 ### sound or other files
-This is just the mod files itself.
+This is just the addon files itself.
 
 
