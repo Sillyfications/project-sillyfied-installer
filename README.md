@@ -15,7 +15,7 @@ Both platforms: Steam and the Steam version of Half-Life 1. WON (World Opponent 
 ## Downloads
 For [Windows 10/11](https://github.com/Sillyfications/project-sillyfied-installer/releases/tag/Windows).
 
-For [modern 64-bit Linux distributions]().
+For [modern amd64 Linux distributions](https://github.com/Sillyfications/project-sillyfied-installer/releases/tag/Linux).
 
 
   
