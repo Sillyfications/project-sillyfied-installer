@@ -81,7 +81,7 @@ string CheckSteamWindows::GetHalfLifeDirectory() { return halflifeDirPathWin; }
 /// </summary>
 void CheckSteamWindows::UserPathInput() {
 	//clear screen
-	system("cls"); //C++ windows equivalent of Console.Clear() THIS ONLY WORKS FOR WINDOWS FIND A WORKAROUND FOR LINUX
+	scfcsw.ClearScreen();
 	//ask user to input full path
 	cout << "Input full path to the Steam folder:\n";
 	string data;
@@ -106,7 +106,7 @@ void CheckSteamWindows::UserPathInput() {
 /// </summary>
 void CheckSteamWindows::UserPathHalfLifeInput() {
 	//clear screen
-	system("cls"); //C++ windows equivalent of Console.Clear()
+	scfcsw.ClearScreen();
 	//ask user to input full path
 	cout << "Input full path to the folder where hl.exe is contained:";
 	string data;
