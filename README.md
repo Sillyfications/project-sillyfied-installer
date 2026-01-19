@@ -41,6 +41,8 @@ For [modern amd64 Linux distributions](https://github.com/Sillyfications/project
 
 
 ## Used projects
-[JSON for Modern C++](https://github.com/nlohmann/json) by Niels Lohmann - licensed under MIT
+[JSON for Modern C++](https://json.nlohmann.me/) by Niels Lohmann - licensed under MIT
 
-[curl](https://github.com/curl/curl) - licensed under an open-source MIT-like license
+[curl](https://curl.se/) - licensed under an open-source MIT-like license
+
+[zlib](https://zlib.net/zlib.html) - licensed under the zlib license
