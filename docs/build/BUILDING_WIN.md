@@ -10,7 +10,7 @@ git clone https://github.com/Sillyfications/project-sillyfied-installer.git
 ```
 After cloning, switch the branch from `main` to `windows-main` and wait until the branch has downloaded.
 
-Open the .sln file on Visual Studio 2022/2026 and switch the branch to windows-main.
+At last open the .sln file on Visual Studio 2022/2026.
 ### Setting up VCPKG
 
 
