@@ -1,9 +1,11 @@
 # Building on Windows
 ### Cloning the Windows branch
-Clone the branch with any terminal program.
+Clone the branch with GitHub Desktop (or any git tool).
 ```
 git clone https://github.com/Sillyfications/project-sillyfied-installer.git
 ```
+After cloning, switch the branch from `main` to `windows-main` and wait until the branch has downloaded.
+
 Open the .sln file on Visual Studio 2022/2026 and switch the branch to windows-main.
 ### Setting up VCPKG
 
@@ -16,7 +18,7 @@ Run the bootstrap batch file.
 ```
 cd vcpkg; ./bootstrap-vcpkg.bat
 ```
-Download the [vcpkg.json](https://sillyfications.github.io/projsil/dev/vcpkg.json) file and place in the root folder and then intergrate VCPKG to VS
+Download the [vcpkg.json](https://sillyfications.github.io/projsil/dev/vcpkg.json) file and place in the `projsilinstall-win` folder and then intergrate VCPKG to VS
 
 ```
 ./vcpkg.exe integrate install
