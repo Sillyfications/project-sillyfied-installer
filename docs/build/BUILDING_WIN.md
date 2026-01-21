@@ -2,6 +2,10 @@
 ### Cloning the Windows branch
 Clone the branch with GitHub Desktop (or any git tool).
 ```
+https://github.com/Sillyfications/project-sillyfied-installer.git
+```
+or when using the terminal
+```
 git clone https://github.com/Sillyfications/project-sillyfied-installer.git
 ```
 After cloning, switch the branch from `main` to `windows-main` and wait until the branch has downloaded.
