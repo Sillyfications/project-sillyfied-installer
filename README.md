@@ -11,7 +11,9 @@ Windows**: Windows 10* or 11, [7-zip](https://www.7-zip.org/)
 
 Linux**: 7-zip, but most major distros come with 7-zip preinstalled.
 
-Both platforms: Steam and the Steam version of Half-Life 1. WON (World Opponent Network), Pre-Steampipe, cracked or Xash3D with or without FWGS is not supported! There are workarounds to still use this program without Half-Life 1, but it will not do much.
+Both platforms: Steam and the Steam version of Half-Life 1 or Xash3D FWGS with a user provided `valve` folder. WON (World Opponent Network), Pre-Steampipe, cracked or base Xash3D is not supported! There are workarounds to still use this program without Half-Life 1, but it will not do much.
+
+Notice for Xash3D users: Normally this mod is tested on the current version of GoldSrc, if there is an issue that I cannot replicate on GoldSrc- don't expect a patch.
 
 *Windows 10 users should run the program on PowerShell, MinGW, KDE Konsole or any other terminal program that is not CMD. CMD does not support the ANSI escape codes used in the installer. For Windows 11, it is fine.
 
